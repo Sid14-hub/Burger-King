@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <title>Burger King-Food Website Template</title>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <section id="navigation">
+        <nav id="navi">
+            <div class="logo">
+                Burger <span> King</span>
+            </div>
+            <div class="options" id="options">
+                <ul>
+                    <a href="index.html">
+                        <li class="current">Home</li>
+                    </a>
+                    <a href="About.html">
+                        <li>About</li>
+                    </a>
+                    <a href="Feature.html">
+                        <li>Feature</li>
+                    </a>
+                    <a href="Chef.html">
+                        <li>Chef</li>
+                    </a>
+                    <a href="Menu.html">
+                        <li>Menu</li>
+                    </a>
+                    <a href="Booking.html">
+                        <li>Booking</li>
+                    </a>
+                    <a href="#">
+                        <li style="margin-right: 0;" id="dropdown">Pages
+                            <div class="extra" id="extra">
+                                <ul>
+                                    <a href="BlogGrid.html">
+                                        <li>Blog Grid</li>
+                                    </a>
+                                    <a href="BlogDetails.html">
+                                        <li>Blog Details</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <sup><i class="fa fa-sort-desc"></i></sup>
+                        </li>
+                    </a>
+                    <a href="Contact.html" id="contact">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="bar" id="bar">
+                <i class="fa fa-bars" id="bar" style="color: white;"></i>
+            </div>
+        </nav>
+    </section>
+    <!-- --------------Image Crousel----------------- -->
+    <section id="img">
+        <div class="imgcontainer carousel slide" id="carouselExampleInterval" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="6000">
+                    <div class="img1">
+                        <div class="container" style="text-align: center;">
+                            <h1 style="color: white;">World's <span style="color: #fbaf32;"> Best</span> Chef </h1>
+                            <p style="color: azure; font-size: larger;">Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Molestias earum officiis rerum minima libero porro voluptas! Aut
+                                quibusdam.</p>
+                            <button id="btn1" class="btn1">View Menu</button>
+                            <button id="btn2" class="btn2">Book Table</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item " data-interval="6000">
+                    <div class="img2">
+                        <div class="container" style="text-align: center;">
+                            <h1 style="color: white;">Fastest Order<span style="color: #fbaf32;"> Delivery</span></h1>
+                            <p style="color: azure; font-size: larger;">Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Molestias earum officiis rerum minima libero porro voluptas! Aut
+                                quibusdam.</p>
+                            <button id="btn3" class="btn1">View Menu</button>
+                            <button id="btn4" class="btn2">Book Table</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item " data-interval="6000">
+                    <div class="img3">
+                        <div class="container" style="text-align: center;">
+                            <h1 style="color: white;">Best <span style="color: #fbaf32;"> Quality</span> Ingredients
+                            </h1>
+                            <p style="color: azure; font-size: larger;">Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Molestias earum officiis rerum minima libero porro voluptas! Aut
+                                quibusdam.</p>
+                            <button id="btn5" class="btn1">View Menu</button>
+                            <button id="btn6" class="btn2">Book Table</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="back" id="back">
+            <div class="top" id="top">
+                <div style="text-align:center; color:white; font-size: 40px">^</div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------------Private Table------------------- -->
+    <section id="private" style="background-color: rgba(0, 0, 0, .04);">
+        <div class="table">
+            <div class="left">
+                <h6 style="color: #719a0a;">Book A Table</h6>
+                <h3 style="font-weight: 600;">Book Your Table For Private Dinners & Happy Hours</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur
+                    facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra
+                    quis sem.</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur
+                    facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra
+                    quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor.
+                    Aliquam interdum at lacus non blandit.</p>
+            </div>
+            <div class="right">
+                <form action="">
+                    <div class="takeinput  my-3" id="nameholder">
+                        <input type="text" placeholder="Name" id="name" required>
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="takeinput  my-3" id="mailholder">
+                        <input type="email" placeholder="abc@abc.com" required>
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <div class="takeinput  my-3" id="phnholder">
+                        <input type="Text" placeholder="Number" required id="phn">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="takeinput  my-3" id="dateholder">
+                        <input type="text" id="picker" placeholder="Date" required>
+                        <i class="fa fa-calendar"></i>
+                    </div>
+                    <div class="takeinput  my-3">
+                        <input type="text" id="time" placeholder="Time" required>
+                        <i class="fa fa-clock-o"></i>
+                    </div>
+                    <div class="guest takeinput my-3" id="guestholder">
+                        <select name="guest" id="guest">
+                            <option value="0">Guest </option>
+                            <option value="1">Guest1 </option>
+                            <option value="2">Guest2 </option>
+                            <option value="3">Guest3 </option>
+                            <option value="4">Guest4 </option>
+                            <option value="5">Guest5 </option>
+                            <option value="6">Guest6 </option>
+                            <option value="7">Guest7 </option>
+                            <option value="8">Guest8 </option>
+                            <option value="9">Guest9 </option>
+                            <option value="10">Guest10</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="takeinput my-3 bn" style="background-color: white; color: #fbaf32;"
+                        onmouseover="this.style.background='#fbaf32', this.style.color='white'"
+                        onmouseout="this.style.background='white',this.style.color='#fbaf32'" id="btn7">
+                        Book Now
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- ---------About Us---------- -->
+    <section id="about">
+        <div class="aboutUs">
+            <div class="aboutpic">
+                <img src="img/about.jpg" alt="">
+                <div class="play1"></div>
+                <div class="play">
+                    <a href="https://www.youtube.com/watch?v=8kMv5ssr6Dw" target="_blank"><span class="playit"
+                            id="playit"></span></a>
+                </div>
+            </div>
+            <div class="aboutText">
+                <h6 style="color: #719a0a;">About Us</h6>
+
+                <p>Cooking Since 1990
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur
+                    facilisis
+                    ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+                </p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur
+                    facilisis
+                    ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+                    Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam
+                    interdum at lacus non blandit.</p>
+                <button id="btn8" class="btn1">Book A Table</button>
+            </div>
+        </div>
+    </section>
+    <!-- --------------features------------- -->
+    <section id="keyfeatures">
+        <div class="features">
+            <div class="leftfeatures">
+                <p style="color: #719a0a">Why Choose Us</p>
+                <h2>Our Key Features</h2>
+                <div class="featurespics">
+                    <div style="width: 50%; height: 50%; display: flex;">
+                        <img src="img/feature-1.jpg" style="border-radius:20px 0 0 0" alt="">
+                        <img src="img/feature-2.jpg" style="border-radius:0 20px 0 0" alt="">
+                    </div>
+                    <div style="width: 50%; height: 50%; display: flex;">
+                        <img src="img/feature-3.jpg" style="border-radius:0 0 0 20px" alt="">
+                        <img src="img/feature-4.jpg" style="border-radius:0 0 20px 0" alt="">
+                    </div>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consec adipis elit. Phasel nec preti mi. Curabit facilis ornare velit non
+                    vulputa. Aliquam metus tortor, auctor id gravida condime, viverra quis sem. Curabit non nisl nec
+                    nisi sceleri maximus
+                </p>
+                <button id="btn9" class="btn1">Book A Table</button>
+            </div>
+            <div class="rightfeatures">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="feature-item">
+                            <div class="yellowround"></div>
+                            <h3>World's Best Chef</h3>
+                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non
+                                vulput metus tortor</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="feature-item">
+                            <div class="yellowround"></div>
+                            <h3>Natural ingredients</h3>
+                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non
+                                vulput metus tortor</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="feature-item">
+                            <div class="yellowround"></div>
+                            <h3>Best quality products</h3>
+                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non
+                                vulput metus tortor</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="feature-item">
+                            <div class="yellowround"></div>
+                            <h3>Fresh vegetables & Meet</h3>
+                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non
+                                vulput metus tortor</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="feature-item">
+                            <div class="yellowround"></div>
+                            <h3>Fastest door delivery</h3>
+                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non
+                                vulput metus tortor</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="feature-item">
+                            <div class="yellowround"></div>
+                            <h3>Ground beef & Low fat</h3>
+                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non
+                                vulput metus tortor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------things------------- -->
+    <section id="things" style="background-color: whitesmoke; ">
+        <div class="row" style="padding: 0; justify-content: center; width: 100%;">
+            <div class="cards py-3"
+                style="width: 300px; background-color: white; margin: 1rem; border-radius: 15px; text-align: center;">
+                <img src="img/burger-icon-free-vector.webp" alt="" style="width: 100px; height: 100px;">
+                <h3 style="font-weight: bold;">Burgers</h3>
+                <p>Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa.
+                    Aliquam metus tortor auctor quis sem.</p>
+                <a href=""> View Menu </a>
+            </div>
+            <div class="cards py-3"
+                style="width: 300px; background-color: white;margin: 1rem; border-radius: 15px; text-align: center;">
+                <img src="img/snacks1.jpg" alt="" style="width: 100px; height: 100px;">
+                <h3 style="font-weight: bold;">Snacks</h3>
+                <p>Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa.
+                    Aliquam metus tortor auctor quis sem.</p>
+                <a href=""> View Menu </a>
+            </div>
+            <div class="cards py-3"
+                style="width: 300px; background-color: white;margin: 1rem; border-radius: 15px; text-align: center;">
+                <img src="img/drink.png" alt="" style="width: 100px; height: 100px;">
+                <h3 style="font-weight: bold;">Burgers</h3>
+                <p>Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa.
+                    Aliquam metus tortor auctor quis sem.</p>
+                <a href=""> View Menu </a>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------food menu--------------- -->
+    <section id="foodmenu" style="padding: 2rem;">
+        <div style="text-align: center; padding: 1rem;">
+            <p style="color: #719a0a;">Food Menu</p>
+            <h1 style="font-weight: bold;">Delicious Food Menu</h1>
+            <button class="btn2 mx-2" id="btn10">Burgers</button>
+            <button class="btn1 mx-2" id="btn11">Snacks</button>
+            <button class="btn1 mx-2" id="btn12">Breavages</button>
+        </div>
+        <div class="menu">
+            <div class="price px-5">
+                <div class="f1">
+                    <img src="img/menu-burger.jpg" alt="" style="width: 50px; height: 50px; border-radius: 50%;">
+                    <div>
+                        <p> <span style="font-weight: bold; font-size: 32px;">Mini cheese
+                                Burger</span>.............................. <span
+                                style="font-weight: bold; font-size: 32px; color: #fbaf32;"> $9.00</span></p>
+                        <p> Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                    </div>
+                </div>
+                <div class="f1">
+                    <img src="img/menu-burger.jpg" alt="" style="width: 50px; height: 50px; border-radius: 50%;">
+                    <div>
+                        <p> <span style="font-weight: bold; font-size: 32px;">Double Size
+                                Burger</span>.............................. <span
+                                style="font-weight: bold; font-size: 32px; color: #fbaf32;"> $11.00</span></p>
+                        <p> Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                    </div>
+                </div>
+                <div class="f1">
+                    <img src="img/menu-burger.jpg" alt="" style="width: 50px; height: 50px; border-radius: 50%;">
+                    <div>
+                        <p> <span style="font-weight: bold; font-size: 32px;">Bacon, EGG and Cheese</span>...........
+                            <span style="font-weight: bold; font-size: 32px; color: #fbaf32;"> $13.00</span>
+                        </p>
+                        <p> Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                    </div>
+                </div>
+                <div class="f1">
+                    <img src="img/menu-burger.jpg" alt="" style="width: 50px; height: 50px; border-radius: 50%;">
+                    <div>
+                        <p> <span style="font-weight: bold; font-size: 32px;">Pulled porx
+                                Burger</span>.............................. <span
+                                style="font-weight: bold; font-size: 32px; color: #fbaf32;"> $18.00</span></p>
+                        <p> Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                    </div>
+                </div>
+                <div class="f1">
+                    <img src="img/menu-burger.jpg" alt="" style="width: 50px; height: 50px; border-radius: 50%;">
+                    <div>
+                        <p> <span style="font-weight: bold; font-size: 32px;">Fried chicken
+                                Burger</span>.............................. <span
+                                style="font-weight: bold; font-size: 32px; color: #fbaf32;"> $22.00</span></p>
+                        <p> Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                    </div>
+                </div>
+            </div>
+            <div class="burgerimg">
+                <img src="img/menu-burger-img.jpg" alt="" style="border-radius: 20px; height: 500px ;">
+            </div>
+        </div>
+    </section>
+    <section id="ourteam">
+        <div style="text-align: center; padding: 1rem;">
+            <p style="color: #719a0a;">Our Team</p>
+            <h1 style="font-weight: bold;">Our Master Chef</h1>
+        </div>
+        <div class="row">
+            <div class="member mx-2 my-3">
+                <img src="img/team-1.jpg" alt="">
+                <div class="teaam">
+                    <h4>Adam Phillips</h4>
+                    <p>CEO, Co Founder</p>
+                </div>
+                <div class="layer">
+                    <div class="socialmedia">
+                        <ul>
+                            <li><i class="fa fa-twitter"></i></li>
+                            <li><i class="fa fa-linkedin"></i></li>
+                            <li><i class="fa fa-instagram"></i></li>
+                            <li><i class="fa fa-facebook"></i></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="member mx-2 my-3">
+                <img src="img/team-2.jpg" alt="">
+                <div class="teaam">
+                    <h4>Dylan Adams</h4>
+                    <p>Master Chef</p>
+                    <div class="layer">
+                        <div class="socialmedia">
+                            <ul>
+                                <li><i class="fa fa-twitter"></i></li>
+                                <li><i class="fa fa-linkedin"></i></li>
+                                <li><i class="fa fa-instagram"></i></li>
+                                <li><i class="fa fa-facebook"></i></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="member mx-2 my-3">
+                <img src="img/team-3.jpg" alt="">
+                <div class="teaam">
+                    <h4>Jhon Doe</h4>
+                    <p>Master Chef</p>
+                    <div class="layer">
+                        <div class="socialmedia">
+                            <ul>
+                                <li><i class="fa fa-twitter"></i></li>
+                                <li><i class="fa fa-linkedin"></i></li>
+                                <li><i class="fa fa-instagram"></i></li>
+                                <li><i class="fa fa-facebook"></i></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="member mx-2 my-3">
+                <img src="img/team-4.jpg" alt="">
+                <div class="teaam">
+                    <h4>Josh Dunn</h4>
+                    <p>Master Chef</p>
+                    <div class="layer">
+                        <div class="socialmedia">
+                            <ul>
+                                <li><i class="fa fa-twitter"></i></li>
+                                <li><i class="fa fa-linkedin"></i></li>
+                                <li><i class="fa fa-instagram"></i></li>
+                                <li><i class="fa fa-facebook"></i></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- footer -->
+   <div class="footer">
+       <div>
+       <div class="add">
+           <h4>Our Address</h4>
+           <ul>
+               <li>123 Street, New York, USA</li>
+               <li>+012 345 67890</li>
+               <li>info@example.com</li>
+           </ul>
+        </div>
+        <div class="footSocial">
+            <ul>
+                <li><i class="fa fa-twitter"></i></li>
+                <li><i class="fa fa-linkedin"></i></li>
+                <li><i class="fa fa-instagram"></i></li>
+                <li><i class="fa fa-facebook"></i></li>
+            </ul>
+        </div>
+    </div>
+     <div class="news">
+         <h4>Newsletter</h4>
+            Lorem ipsum dolor sit amet elit. Quisque eu lectus a <br> leo dictum nec non quam. Tortor eu placerat rhoncus, <br> lorem quam iaculis felis, sed lacus neque id eros.
+     </div>
+       
+   </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#picker').datepicker();
+    });
+</script>
+
+</html>
